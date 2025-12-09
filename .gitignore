@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Environment files (contain secrets - NEVER commit these!)
+.env
+.env.local
+.env.*.local
+
+# Firebase service account key (contains private key - NEVER commit!)
+**/serviceAccountKey.json
+
+# Build outputs
+build/
+dist/
+.next/
+
+# Testing
+coverage/
+
+# Editor/IDE settings
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Misc
+.pnp
+.pnp.js
