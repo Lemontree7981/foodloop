@@ -194,15 +194,15 @@ const LandingPage = ({ onLogin, onRegister, loading, error, serverErrors }) => {
           {/* Stats Preview */}
           <div className="landing-stats">
             <div className="landing-stat">
-              <span className="landing-stat-value">1,250+</span>
+              <span className="landing-stat-value">0</span>
               <span className="landing-stat-label">Meals Shared</span>
             </div>
             <div className="landing-stat">
-              <span className="landing-stat-value">500+</span>
+              <span className="landing-stat-value">0</span>
               <span className="landing-stat-label">Donors</span>
             </div>
             <div className="landing-stat">
-              <span className="landing-stat-value">50+</span>
+              <span className="landing-stat-value">0</span>
               <span className="landing-stat-label">NGOs</span>
             </div>
           </div>
